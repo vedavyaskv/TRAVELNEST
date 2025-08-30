@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | TravelNest</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/jpg" href="logo.jpg" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo" />
+      <span>TravelNest</span>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#locations">Locations</a>
+      <a href="index.html#packages">Packages</a>
+      <a href="#">About Us</a>
+      <a href="index.html#footer">Contact Us</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <section class="contact-section">
+    <h1>Get in Touch</h1>
+    <p>Have a question, comment, or just want to say hello? Fill out the form below and we’ll get back to you soon.</p>
+
+    <form class="contact-form" action="/contact" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>

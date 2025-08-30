@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpg" href="logo.jpg" />
+  <title>FAQ | TravelNest</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="faq.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo" />
+      <span>TravelNest</span>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#locations">Locations</a>
+      <a href="index.html#packages">Packages</a>
+      <a href="about.html">About Us</a>
+      <a href="index.html#footer">Contact Us</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+      
+      <div class="faq">
+        <button class="question">What travel documents do I need?</button>
+        <div class="answer">You typically need a valid passport and visa depending on your destination. Check embassy requirements before travel.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Can I customize my travel package?</button>
+        <div class="answer">Yes, our Explorer and Globetrotter packages are fully customizable. You can also add-on experiences to other packages.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Do you offer travel insurance?</button>
+        <div class="answer">Yes, we provide comprehensive travel insurance as an optional add-on with every package.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">How do I contact my tour guide?</button>
+        <div class="answer">Your guide’s contact will be shared 24 hours before your journey. You can reach them via phone, email, or WhatsApp.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Can I reschedule or cancel my trip?</button>
+        <div class="answer">Yes. Cancellations/reschedules depend on your package type and how close it is to the travel date. Terms apply.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Are meals included in the package?</button>
+        <div class="answer">Meal inclusion depends on your chosen package. Details will be mentioned clearly while booking.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">What payment methods are accepted?</button>
+        <div class="answer">We accept credit/debit cards, UPI, net banking, and EMI options through select providers.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Is there a group discount?</button>
+        <div class="answer">Yes, we offer discounts for groups of 6 or more travelers. Contact our support for a custom quote.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">Will I get a trip itinerary?</button>
+        <div class="answer">Yes, every customer receives a detailed itinerary via email and inside your dashboard before the trip.</div>
+      </div>
+
+      <div class="faq">
+        <button class="question">What if my flight gets delayed?</button>
+        <div class="answer">Our support team and on-ground managers will adjust your schedule as needed. We track your flights for updates.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    document.querySelectorAll('.question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('active');
+        const answer = btn.nextElementSibling;
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+  </script>
+</body>
+</html>

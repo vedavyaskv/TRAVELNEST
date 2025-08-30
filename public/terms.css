@@ -1,0 +1,47 @@
+.terms-section {
+  padding: 60px 20px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.terms-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+}
+
+.terms-container h1 {
+  color: #07406e;
+  font-size: 2.6rem;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.terms-container h2 {
+  font-size: 1.4rem;
+  color: #0c2d48;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.terms-container p {
+  line-height: 1.8;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.terms-container ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.terms-container li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}

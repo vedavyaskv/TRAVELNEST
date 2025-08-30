@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/jpg" href="logo.jpg" />
+  <title>TravelNest</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo" />
+      <span>TravelNest</span>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#locations">Locations</a>
+      <a href="#packages">Packages</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">WANDER SOLO, DREAM BIG</h1>
+      <p class="tagline">Experience unforgettable adventures with tailor-made travel plans.</p>
+      <p class="desc">
+        Step into a world where every journey is yours — no compromises, just pure freedom. From hidden gems to serene escapes, we craft solo adventures that match your pace, passion, and dreams.
+      </p>
+      <a href="register.html" class="register-btn">Register Now</a>
+    </div>
+  </section>
+
+  <section class="locations-carousel" id="locations">
+    <h2>Explore Our Top Locations</h2>
+
+    <div class="carousel-layout">
+      <div class="carousel-arrow left">
+        <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+      </div>
+
+      <div class="carousel-container" id="carousel">
+        <div class="location-card">
+          <img src="switzerland.jpg" alt="Interlaken">
+          </a>
+
+          <div class="location-info normal">
+            <h3>Switzerland</h3>
+            <p>Interlaken</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Switzerland</h3>
+            <p>Interlaken</p>
+          </div>
+        </div>
+        
+
+        <div class="location-card">
+          <img src="maldives.jpg" alt="Male"></a>
+          <div class="location-info normal">
+            <h3>Maldives</h3>
+            <p>Malé</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Maldives</h3>
+            <p>Malé</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="italy.avif" alt="Rome">
+          <div class="location-info normal">
+            <h3>Italy</h3>
+            <p>Rome</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Italy</h3>
+            <p>Rome</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="dubai.jpg" alt="Dubai">
+          <div class="location-info normal">
+            <h3>UAE</h3>
+            <p>Dubai</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>UAE</h3>
+            <p>Dubai</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="Thailand.jpg" alt="Phuket">
+          <div class="location-info normal">
+            <h3>Thailand</h3>
+            <p>Phuket</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Thailand</h3>
+            <p>Phuket</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="newzealand.webp" alt="Queenstown">
+          <div class="location-info normal">
+            <h3>New Zealand</h3>
+            <p>Queenstown</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>New Zealand</h3>
+            <p>Queenstown</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="paris.jpg" alt="Paris">
+          <div class="location-info normal">
+            <h3>France</h3>
+            <p>Paris</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>France</h3>
+            <p>Paris</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="japan.jpg" alt="Kyoto">
+          <div class="location-info normal">
+            <h3>Japan</h3>
+            <p>Kyoto</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Japan</h3>
+            <p>Kyoto</p>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <img src="sydney.jpg" alt="Sydney">
+          <div class="location-info normal">
+            <h3>Australia</h3>
+            <p>Sydney</p>
+          </div>
+
+          <div class="location-info hover">
+            <h3>Australia</h3>
+            <p>Sydney</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-arrow right">
+        <button class="carousel-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="packages-section" id="packages">
+  <h2 class="packages-title">Choose Your Perfect Package</h2>
+  <div class="packages-grid">
+    
+    <div class="package-card">
+      <div class="image-wrapper">
+        <img src="twostar.jpg" alt="Voyager Package" />
+        <div class="price-tag">₹ 9,999/-</div>
+      </div>
+      <h3>Voyager Package</h3>
+      <ul>
+        <li>2-Star Hotel</li>
+        <li>5 Nights Stay</li>
+        <li>Group Sightseeing Only</li>
+        <li>Shared Airport Transfers</li>
+        <li>Free Photo Session</li>
+        <li>Friendly Tour Guide</li>
+        <li>24/7 Customer Help Center</li>
+      </ul>
+    </div>
+
+    <div class="package-card">
+      <div class="image-wrapper">
+        <img src="threestar.jpg" alt="Discoverer Package" />
+        <div class="price-tag">₹ 19,999/-</div>
+      </div>
+      <h3>Discoverer Package</h3>
+      <ul>
+        <li>3-Star Hotel</li>
+        <li>6 Nights Stay</li>
+        <li>Guided Tours + Entry Tickets</li>
+        <li>Shared + Some Private Transfers</li>
+        <li>Free Photo Session</li>
+        <li>Multilingual Tour Guide</li>
+        <li>24/7 Customer Help Center</li>
+      </ul>
+    </div>
+
+    <div class="package-card">
+      <div class="image-wrapper">
+        <img src="fourstar.jpg" alt="Explorer Package" />
+        <div class="price-tag">₹ 29,999/-</div>
+      </div>
+      <h3>Explorer Package</h3>
+      <ul>
+        <li>4-Star Hotel</li>
+        <li>7 Nights Stay</li>
+        <li>Guided + Adventure Activities</li>
+        <li>Private Airport Transfers</li>
+        <li>Drone Photo + Video Session</li>
+        <li>Expert Tour Manager</li>
+        <li>Priority Support Center</li>
+      </ul>
+    </div>
+
+    <div class="package-card">
+      <div class="image-wrapper">
+        <img src="fivestar.jpg" alt="Globetrotter Package" />
+        <div class="price-tag">₹ 39,999/-</div>
+      </div>
+      <h3>Globetrotter Package</h3>
+      <ul>
+        <li>5-Star/Luxury Resort</li>
+        <li>8 Nights Stay</li>
+        <li>Custom Itinerary & VIP Experiences</li>
+        <li>Limousine or Private Transfers</li>
+        <li>Professional Photoshoot & Reel</li>
+        <li>Personal Concierge & Guide</li>
+        <li>Dedicated 24/7 Travel Manager</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+<footer class="footer" id="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <h2><img src="logo.jpg" alt="Logo">TravelNest</h2>
+      <p>
+        TravelNest brings your travel dreams to life with curated destinations, seamless planning, and unforgettable experiences.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-subscribe">
+  <p>Subscribe to our newsletter for updates & news</p>
+  <form action="/subscribe" method="POST" id="subscribeForm">
+    <input type="email" name="email" placeholder="Enter Your Email" required />
+    <button type="submit">SUBSCRIBE</button>
+  </form>
+</div>
+
+
+  <div class="footer-socials">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  
+  <div class="footer-left">
+    © 2025 TravelNest. All rights reserved.
+  </div>
+  <div class="footer-right">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9fbfd;
+  color: #333;
+  line-height: 1.7;
+}
+
+.privacy-section {
+  padding: 80px 20px;
+}
+
+.privacy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.privacy-container h1 {
+  font-size: 2.5rem;
+  color: #07406e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.privacy-container h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #0c2d48;
+}
+
+.privacy-container p {
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.privacy-container ul {
+  margin: 15px 0 15px 20px;
+}
+
+.privacy-container ul li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .privacy-container {
+    padding: 20px;
+  }
+}
